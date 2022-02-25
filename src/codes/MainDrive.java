@@ -1,6 +1,7 @@
 package codes;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class MainDrive {
 	
@@ -41,6 +42,20 @@ public class MainDrive {
 		for (int num : cpuNumbers) {
 			System.out.println(num);
 		}
+		
+		
+//		사용자가 정답을 맞출때까지 입력받자
+		
+		
+		Scanner myScanner = new Scanner(System.in);
+		while (true) {
+			
+			System.out.print("답안 입력 : ");
+			
+			int inputNum = myScanner.nextInt();
+			
+		}
+		
 		
 		
 	}
